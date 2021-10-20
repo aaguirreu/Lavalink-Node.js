@@ -4,7 +4,7 @@ const fetch = require('node-fetch')
 require('dotenv').config()
 
 const autorq = require('./autorequest')
-//autorq()
+autorq()
 
 
 let application = fs.readFileSync("./application.yml", "utf8")

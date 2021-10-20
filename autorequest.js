@@ -5,6 +5,7 @@ const request = () => {
     var options = {
       //hostname: 'lavalink-graljadue.herokuapp.com',
       hostname: 'lavalink-graljadue.herokuapp.com',
+      password: 'pichulajadue',
       port: 443,
       path: '/',
       method: 'GET'
