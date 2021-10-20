@@ -1,6 +1,11 @@
 
-const fs = require("fs")
-const fetch = require("node-fetch")
+const fs = require('fs')
+const fetch = require('node-fetch')
+require('dotenv').config()
+
+const autorq = require('./autorequest')
+autorq()
+
 
 let application = fs.readFileSync("./application.yml", "utf8")
 

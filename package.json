@@ -4,11 +4,17 @@
   "description": "",
   "main": "bootstrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node bootstrap.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "dotenv": "^10.0.0",
+    "erela.js": "^2.3.3",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.5",
+    "nodemon": "^2.0.13"
   }
 }
