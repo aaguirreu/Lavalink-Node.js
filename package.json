@@ -12,9 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "erela.js": "^2.3.3",
+    "erela.js-vk": "^2.3.3-vk-11",
     "https": "^1.0.0",
-    "node-fetch": "^2.6.5",
+    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.13"
   }
 }
